@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/assets/css/global.css" />
+		<link
+			rel="stylesheet"
+			href="/assets/css/pages/course.css"
+		/>
+		<title>Course Detail</title>
+	</head>
+	<body>
+		<header>
+			<nav class="fixed-top">
+				<div class="d-flex justify-content-between w-100">
+					<div class="navbar-logo-holder">
+						<a href="#"
+							><img src="/assets/images/logo.png"
+						/></a>
+					</div>
+					<div class="d-flex links-div" id="linkholder">
+						<div
+							class="d-flex form__group field align-items-center align-self-center"
+						>
+							<img
+								src="/assets/icons/search-icon.svg"
+								class="icon"
+							/>
+							<input
+								type="input"
+								class="form__field"
+								name="search"
+								id="search"
+								placeholder="Search"
+							/>
+						</div>
+						<div class="link-holder">
+							<a class="nav-link" href="#"
+								>Register as a student</a
+							>
+						</div>
+						<div class="link-holder">
+							<a class="nav-link" href="#"
+								>Register as a teacher</a
+							>
+						</div>
+						<div class="link-holder">
+							<a class="nav-link" href="#">Login</a>
+						</div>
+					</div>
+					<div class="hamburger-lines">
+						<input
+							type="checkbox"
+							class="checkboxClass"
+							id="#toggle"
+						/>
+						<span class="line line1"></span>
+						<span class="line line2"></span>
+						<span class="line line3"></span>
+					</div>
+				</div>
+				<div class="menu-items">
+					<li><a href="#">Register as a student</a></li>
+					<li><a href="#">Register as a teacher</a></li>
+					<li>
+						<div
+							class="d-flex form__group field align-items-center align-self-center"
+						>
+							<img
+								src="/assets/icons/search-icon.svg"
+								class="icon"
+							/>
+							<input
+								type="input"
+								class="form__field"
+								name="search"
+								id="search"
+								placeholder="Search"
+							/>
+						</div>
+					</li>
+					<li>
+						<button type="submit" class="date__btn">
+							Search
+						</button>
+					</li>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="container-fluid section__detail">
+				<h1>Character Design Class (Fundamental)</h1>
+				<p class="section__description">
+					A course by Paisoezayyar, Character Designer
+				</p>
+				<div class="row">
+					<div class="col-sm">
+						<img
+							class="coursedetail__img"
+							src="/assets/images/course_image.png"
+						/>
+					</div>
+					<div class="col-sm mt-4 mt-sm-0 mt-md-0">
+						<div class="d-flex flex-column">
+							<button class="badge">Free</button>
+							<div class="d-flex align-items-center my-3">
+								<img
+									src="/assets/icons/course__detail__calendar.svg"
+									class="detail__icon"
+								/>
+								<p class="detail__description">
+									2022-05-21 ~ 2022-05-29
+								</p>
+							</div>
+							<div class="d-flex align-items-center">
+								<img
+									src="/assets/icons/course__detail__seat.svg"
+									class="detail__icon"
+								/>
+								<p class="detail__description">
+									Only 11 more students!
+								</p>
+							</div>
+							<div class="d-flex align-items-center my-3">
+								<img
+									src="/assets/icons/course__detail__takenSeats.svg"
+									class="detail__icon"
+								/>
+								<p class="detail__description">
+									9 students has taken this course!
+								</p>
+							</div>
+						</div>
+						<div class="d-flex justify-content-center px-5">
+							<button class="btn__enroll">Enroll</button>
+						</div>
+					</div>
+				</div>
+				<h3 class="category__title my-3">
+					Personal Development > Basic
+				</h3>
+				<div
+					class="d-flex flex-column flex-md-row justify-content-center justify-content-xl-start"
+				>
+					<p class="course__description">
+						(4)ရက်တာသင်ကြားမည့်သင်တန်းဖြစ်ပါသည်။
+					</p>
+					<p class="course__description__day">tt</p>
+					<p class="course__description__day">
+						Day-2（22.5.2022） (SOLID DRAWING)
+					</p>
+					<p class="course__description__day">
+						Day-3（28.5.2022） (STYLISE ANATOMY)
+					</p>
+					<p class="course__description__day">
+						Day-4 (29.5.2022) (CHARACTER DESIGN)
+					</p>
+				</div>
+				<h3 class="prerequisites__title">Prequisites</h3>
+				<p class="prerequisites__description">
+					ပုံဆွဲခဲတံ (2B,4B,6B,9B)ခဲဖျက်၊ ပေတံ၊
+					စာရွက်နှင့်ရောင်စုံခဲတံများရှိဖို့လိုအပ်ပါမည်။
+					အသက်(၇)နှစ်နှင့်အထက်မည်သူမဆိုတက်ရောက်နိုင်ပါသည်။
+				</p>
+				<div class="syllabus__holder">
+					<h3 class="syllabus__title">Syllabus</h3>
+					<div class="d-flex justify-content-between">
+						<p class="syllabus__subtitle">Chapter : 4</p>
+						<p
+							class="syllabus__subtitle"
+							id="showAllDetails"
+						>
+							Show detail of all Chapters
+						</p>
+					</div>
+					<div class="detail__holder">
+						<div
+							class="d-flex justify-content-between detail__bar"
+						>
+							<p class="detail__description">
+								Day-1（21.5.2022） (7 ELEMENTS OF ART)
+							</p>
+							<img
+								src="/assets/icons/chevron-down.svg"
+								class="chevronIcon"
+							/>
+						</div>
+						<div class="detail__container">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit. Quisque cursus orci sed mi
+							egestas viverra. Nullam aliquet maximus quam
+							nec porta. Duis lobortis semper vehicula.
+							Nullam auctor est eu tincidunt fermentum. Cras
+							non risus pellentesque, feugiat erat a,
+							gravida orci. Phasellus pellentesque, risus in
+							semper viverra, nisl nunc porta dui, sit amet
+							pellentesque turpis justo sed felis. Nulla
+							facilisi. Praesent dui sem, feugiat a auctor
+							quis, tincidunt at neque. Vivamus faucibus
+							pretium faucibus. Curabitur feugiat nisi vel
+							leo interdum pulvinar. Donec ultricies nulla
+							non commodo hendrerit. Mauris vulputate
+							rhoncus odio sit amet elementum. Praesent sed
+							ex vitae orci placerat facilisis nec nec eros.
+							Duis sed volutpat neque. Duis id lectus ut
+							lacus efficitur aliquam. Sed tincidunt odio
+							eget mi consequat porttitor. Nulla nisl
+							turpis, aliquam sed leo nec, finibus accumsan
+							leo. Morbi ac tortor hendrerit, feugiat lectus
+							at, convallis dolor. Morbi ultrices at lectus
+							vitae viverra. Nulla ut auctor magna. Aliquam
+							risus magna, pharetra eu dui at, finibus
+							mattis diam. Nulla facilisi.
+						</div>
+					</div>
+					<div class="detail__holder">
+						<div
+							class="d-flex justify-content-between detail__bar"
+						>
+							<p class="detail__description">
+								Day-1（21.5.2022） (7 ELEMENTS OF ART)
+							</p>
+							<img
+								src="/assets/icons/chevron-down.svg"
+								class="chevronIcon"
+							/>
+						</div>
+						<div class="detail__container">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit. Quisque cursus orci sed mi
+							egestas viverra. Nullam aliquet maximus quam
+							nec porta. Duis lobortis semper vehicula.
+							Nullam auctor est eu tincidunt fermentum. Cras
+							non risus pellentesque, feugiat erat a,
+							gravida orci. Phasellus pellentesque, risus in
+							semper viverra, nisl nunc porta dui, sit amet
+							pellentesque turpis justo sed felis. Nulla
+							facilisi. Praesent dui sem, feugiat a auctor
+							quis, tincidunt at neque. Vivamus faucibus
+							pretium faucibus. Curabitur feugiat nisi vel
+							leo interdum pulvinar. Donec ultricies nulla
+							non commodo hendrerit. Mauris vulputate
+							rhoncus odio sit amet elementum. Praesent sed
+							ex vitae orci placerat facilisis nec nec eros.
+							Duis sed volutpat neque. Duis id lectus ut
+							lacus efficitur aliquam. Sed tincidunt odio
+							eget mi consequat porttitor. Nulla nisl
+							turpis, aliquam sed leo nec, finibus accumsan
+							leo. Morbi ac tortor hendrerit, feugiat lectus
+							at, convallis dolor. Morbi ultrices at lectus
+							vitae viverra. Nulla ut auctor magna. Aliquam
+							risus magna, pharetra eu dui at, finibus
+							mattis diam. Nulla facilisi.
+						</div>
+					</div>
+					<div class="detail__holder">
+						<div
+							class="d-flex justify-content-between detail__bar"
+						>
+							<p class="detail__description">
+								Day-1（21.5.2022） (7 ELEMENTS OF ART)
+							</p>
+							<img
+								src="/assets/icons/chevron-down.svg"
+								class="chevronIcon"
+							/>
+						</div>
+						<div class="detail__container">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit. Quisque cursus orci sed mi
+							egestas viverra. Nullam aliquet maximus quam
+							nec porta. Duis lobortis semper vehicula.
+							Nullam auctor est eu tincidunt fermentum. Cras
+							non risus pellentesque, feugiat erat a,
+							gravida orci. Phasellus pellentesque, risus in
+							semper viverra, nisl nunc porta dui, sit amet
+							pellentesque turpis justo sed felis. Nulla
+							facilisi. Praesent dui sem, feugiat a auctor
+							quis, tincidunt at neque. Vivamus faucibus
+							pretium faucibus. Curabitur feugiat nisi vel
+							leo interdum pulvinar. Donec ultricies nulla
+							non commodo hendrerit. Mauris vulputate
+							rhoncus odio sit amet elementum. Praesent sed
+							ex vitae orci placerat facilisis nec nec eros.
+							Duis sed volutpat neque. Duis id lectus ut
+							lacus efficitur aliquam. Sed tincidunt odio
+							eget mi consequat porttitor. Nulla nisl
+							turpis, aliquam sed leo nec, finibus accumsan
+							leo. Morbi ac tortor hendrerit, feugiat lectus
+							at, convallis dolor. Morbi ultrices at lectus
+							vitae viverra. Nulla ut auctor magna. Aliquam
+							risus magna, pharetra eu dui at, finibus
+							mattis diam. Nulla facilisi.
+						</div>
+					</div>
+					<div class="detail__holder">
+						<div
+							class="d-flex justify-content-between detail__bar"
+						>
+							<p class="detail__description">
+								Day-1（21.5.2022） (7 ELEMENTS OF ART)
+							</p>
+							<img
+								src="/assets/icons/chevron-down.svg"
+								class="chevronIcon"
+							/>
+						</div>
+						<div class="detail__container">
+							Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit. Quisque cursus orci sed mi
+							egestas viverra. Nullam aliquet maximus quam
+							nec porta. Duis lobortis semper vehicula.
+							Nullam auctor est eu tincidunt fermentum. Cras
+							non risus pellentesque, feugiat erat a,
+							gravida orci. Phasellus pellentesque, risus in
+							semper viverra, nisl nunc porta dui, sit amet
+							pellentesque turpis justo sed felis. Nulla
+							facilisi. Praesent dui sem, feugiat a auctor
+							quis, tincidunt at neque. Vivamus faucibus
+							pretium faucibus. Curabitur feugiat nisi vel
+							leo interdum pulvinar. Donec ultricies nulla
+							non commodo hendrerit. Mauris vulputate
+							rhoncus odio sit amet elementum. Praesent sed
+							ex vitae orci placerat facilisis nec nec eros.
+							Duis sed volutpat neque. Duis id lectus ut
+							lacus efficitur aliquam. Sed tincidunt odio
+							eget mi consequat porttitor. Nulla nisl
+							turpis, aliquam sed leo nec, finibus accumsan
+							leo. Morbi ac tortor hendrerit, feugiat lectus
+							at, convallis dolor. Morbi ultrices at lectus
+							vitae viverra. Nulla ut auctor magna. Aliquam
+							risus magna, pharetra eu dui at, finibus
+							mattis diam. Nulla facilisi.
+						</div>
+					</div>
+				</div>
+
+				<h3 class="reviews__title">Reviews</h3>
+				<div class="reviews">
+					<div class="d-flex flex-column flex-md-row mb-3">
+						<img
+							src="/assets/images/profile.png"
+							class="profileImage"
+							alt="profileImage"
+						/>
+						<div class="profileDescription">
+							<h3 class="username">ena.nichols</h3>
+							<p class="reviewedDatetime">
+								about 9 hours ago
+							</p>
+							<p class="reviewed__comment">
+								So far, this course seems to focus only on
+								female characters, which is great...but I
+								was hoping for a more comprehensive course
+								with more variety. I don't just want to
+								learn how to draw girls! I'm still only on
+								the first unit of the course, so I hope that
+								there will be more variety later on, but so
+								far, I'm a bit disappointed. On the plus
+								side: the artist explains well, and she's
+								skillful and obviously knows what she's
+								doing and talking about.
+							</p>
+						</div>
+					</div>
+					<div class="d-flex flex-column flex-md-row mb-3">
+						<img
+							src="/assets/images/profile.png"
+							class="profileImage"
+							alt="profileImage"
+						/>
+						<div class="profileDescription">
+							<h3 class="username">ena.nichols</h3>
+							<p class="reviewedDatetime">
+								about 9 hours ago
+							</p>
+							<p class="reviewed__comment">
+								So far, this course seems to focus only on
+								female characters, which is great...but I
+								was hoping for a more comprehensive course
+								with more variety. I don't just want to
+								learn how to draw girls! I'm still only on
+								the first unit of the course, so I hope that
+								there will be more variety later on, but so
+								far, I'm a bit disappointed. On the plus
+								side: the artist explains well, and she's
+								skillful and obviously knows what she's
+								doing and talking about.
+							</p>
+						</div>
+					</div>
+					<div class="d-flex flex-column flex-md-row mb-3">
+						<img
+							src="/assets/images/profile.png"
+							class="profileImage"
+							alt="profileImage"
+						/>
+						<div class="profileDescription">
+							<h3 class="username">ena.nichols</h3>
+							<p class="reviewedDatetime">
+								about 9 hours ago
+							</p>
+							<p class="reviewed__comment">
+								So far, this course seems to focus only on
+								female characters, which is great...but I
+								was hoping for a more comprehensive course
+								with more variety. I don't just want to
+								learn how to draw girls! I'm still only on
+								the first unit of the course, so I hope that
+								there will be more variety later on, but so
+								far, I'm a bit disappointed. On the plus
+								side: the artist explains well, and she's
+								skillful and obviously knows what she's
+								doing and talking about.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Footer-->
+		<footer class="container-fluid no-padding">
+			<div class="footer__container">
+				<div
+					class="d-lg-flex flex-md-row justify-content-center justify-content-md-between align-items-sm-center footer__div"
+				>
+					<div class="footer__holder">
+						<h3 class="footer__title">Get to Know Us</h3>
+						<ul
+							class="footer__subtitle"
+							style="line-height: 200%"
+						>
+							<li>FAQs</li>
+							<li>Terms and Conditions</li>
+							<li>Help and Support</li>
+							<li>About the management company</li>
+						</ul>
+					</div>
+					<div class="footer__holder">
+						<h3 class="footer__title">Contact</h3>
+						<ul
+							class="footer__subtitle"
+							style="line-height: 200%"
+						>
+							<li>Tel: +959 98-656-3091</li>
+							<li>Viber: +959 98-656-3091</li>
+							<li>Telegram: +959 98-656-3091</li>
+							<li>Line: +959 98-656-3091</li>
+						</ul>
+					</div>
+					<div class="footer__holder">
+						<img
+							src="/assets/images/bliss-stock.png"
+							alt="logo"
+							class="align-self-end"
+						/>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="center">
+						<p class="copyright__text">
+							© Copyright Pyinnyar Subuu. All Rights
+							Reserved
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<img
+			src="/assets/icons/arrow-up-square-fill.svg"
+			class="scrollToTop"
+			onclick="handleScrollToTop()"
+		/>
+		<!-- Bootstrap JS -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
+		<script src="/assets/js/main.js"></script>
+		<script src="/assets/js/courseDetail.js"></script>
+	</body>
+	<html></html>
+</html>
